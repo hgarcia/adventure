@@ -1,0 +1,9 @@
+permalink: /:year/:month/:day/:title.html
+url: "http://127.0.0.1:9292"
+blog_url: "http://blog.dynamicprogrammer.com"
+rss_url: "http://feeds.feedburner.com/DynamicSki"
+author: "Hernan Garcia"
+name: "Dynamic Ski"
+destination: ../heroku_adventure/_site/
+lcb: "{{"
+rcb: "}}"

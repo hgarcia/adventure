@@ -1,0 +1,30 @@
+---
+layout: default
+summary: Dynamic Ski, a site about outdoors and live.
+---
+{% assign first = true %}
+{% strip %}
+  {% for post in site.posts limit:20 %}
+  {% if first %}
+  {% assign first = false %}
+  <div class="top-hero" style="background: url('{{ post.hero_img }}');">
+    <header>
+      <h1>Dynamic Ski</h1>
+    </header>
+  </div>
+  <div class="roll">
+  {% endif %}
+    <article>
+      <h2><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
+      <div>
+        <p>
+          {% strip %}
+            {{ post.summary }} 
+          {% endstrip %}
+          <a href="{{site.url}}{{post.url}}" class="more">...</a>
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+{% endstrip %}
