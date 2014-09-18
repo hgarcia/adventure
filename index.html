@@ -1,6 +1,5 @@
 ---
 layout: default
-summary: Dynamic Ski, a site about outdoors and live.
 ---
 {% assign first = true %}
 {% strip %}
@@ -9,7 +8,7 @@ summary: Dynamic Ski, a site about outdoors and live.
   {% assign first = false %}
   <div class="top-hero" style="background: url('{{ post.hero_img }}');">
     <header>
-      <h1>Outdoors</h1>
+      <h1>{{ site.name }}</h1>
     </header>
   </div>
   <div class="roll">
