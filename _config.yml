@@ -1,9 +1,10 @@
 permalink: /:year/:month/:day/:title.html
-url: "http://adventure.dynamicprogrammer.com"
+url: "http://outdoors.dynamicprogrammer.com"
 blog_url: "http://blog.dynamicprogrammer.com"
-rss_url: "http://feeds.feedburner.com/DynamicSki"
+photo_url: "http://photos.dynamicprogrammer.com"
+rss_url: "http://feeds.feedburner.com/Outdoors"
 author: "Hernan Garcia"
-name: "Dynamic Ski"
+name: "Outdoors"
 destination: ../heroku_adventure/_site/
 lcb: "{{"
 rcb: "}}"
