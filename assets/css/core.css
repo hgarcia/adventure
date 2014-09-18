@@ -36,11 +36,8 @@ h2 a {
     z-index: 1;
 }
 .top-hero header {
-    top: 124px;
-    position: relative;
-}
-.top-hero header.article {
     top: 100px;
+    position: relative;
 }
 .top-hero h1 {
     width: 400px;
