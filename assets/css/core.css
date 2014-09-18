@@ -50,6 +50,7 @@ h2 a {
 }
 .top-hero .home-link {
     background-color: rgba(255,255,255,0.5);
+    font-size: 24px;
 }
 .roll {
     max-width: 800px;
